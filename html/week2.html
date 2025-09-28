@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English All in One</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <!-- Logo + Título -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="../images/flag.jpeg" alt="Logo" class="logo" />
+          English All in One
+        </a>
+
+        <!-- Botón Menú Hamburguesa -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Opciones del Menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Week 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#week2">Week 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/week3.html">Week 3 - 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/week5.html">Week 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#week6">Week 6</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Botón Dark Mode -->
+        <button class="btn btn-link dark-mode-toggle" id="darkModeToggle">
+          <i class="bi bi-sun" id="sunIcon"></i>
+        </button>
+      </div>
+    </nav>
+
+        <!-- Contenido Principal -->
+        <div class="container mt-5">
+          <!-- Título Principal -->
+          <div class="text-center mb-5">
+            <h1 class="display-4 mb-3">
+              📘 Week 2: Resumen de la Semana – Gramática en Inglés
+            </h1>
+            <p class="lead">
+              Partes del discurso, adjetivos, presente simple y modal "can"
+            </p>
+          </div>
+
+          <!-- Sección 1: Parts of Speech -->
+          <section id="parts-speech" class="mb-5">
+            <div class="card shadow-sm">
+              <div class="card-header bg-primary text-white">
+                <h2 class="card-title mb-0">
+                  1. Partes del discurso (Parts of Speech)
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-primary">
+                  <strong
+                    >En inglés existen 8 categorías principales de palabras.
+                    Conocerlas ayuda a construir oraciones correctas.</strong
+                  >
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-primary">
+                          📝 Nouns (sustantivos)
+                        </h6>
+                        <p class="card-text">
+                          Nombran personas, lugares o cosas
+                        </p>
+                        <small class="text-muted"
+                          >→ <em>dog, house, Maria</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-success">
+                          🏃 Verbs (verbos)
+                        </h6>
+                        <p class="card-text">Expresan acciones o estados</p>
+                        <small class="text-muted"
+                          >→ <em>run, eat, be</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-warning">
+                          🎨 Adjectives (adjetivos)
+                        </h6>
+                        <p class="card-text">Describen sustantivos</p>
+                        <small class="text-muted"
+                          >→ <em>big, happy, red</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-info">
+                          ⚡ Adverbs (adverbios)
+                        </h6>
+                        <p class="card-text">
+                          Describen verbos, adjetivos o frases
+                        </p>
+                        <small class="text-muted"
+                          >→ <em>quickly, very, always</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">
+                          👤 Pronouns (pronombres)
+                        </h6>
+                        <p class="card-text">Reemplazan sustantivos</p>
+                        <small class="text-muted"
+                          >→ <em>he, she, it, they</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-danger">
+                          🔗 Prepositions (preposiciones)
+                        </h6>
+                        <p class="card-text">Indican relación</p>
+                        <small class="text-muted"
+                          >→ <em>in, on, at, with</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title text-dark">
+                          🔄 Conjunctions (conjunciones)
+                        </h6>
+                        <p class="card-text">Unen ideas</p>
+                        <small class="text-muted"
+                          >→ <em>and, but, because</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title" style="color: #e83e8c">
+                          😮 Interjections (interjecciones)
+                        </h6>
+                        <p class="card-text">Expresan emoción</p>
+                        <small class="text-muted"
+                          >→ <em>Wow!, Oh!, Hey!</em></small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="practice-section mt-4">
+                  <h5>👉 Ejemplo:</h5>
+                  <p class="mb-0">
+                    <strong>She</strong>
+                    <span class="text-muted">(pronoun)</span>
+                    <strong>is</strong> <span class="text-muted">(verb)</span>
+                    <strong>a good</strong>
+                    <span class="text-muted">(adjective)</span>
+                    <strong>teacher</strong>
+                    <span class="text-muted">(noun)</span>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Sección 2: Adjectives -->
+          <section id="adjectives" class="mb-5">
+            <div class="card shadow-sm">
+              <div class="card-header bg-warning text-dark">
+                <h2 class="card-title mb-0">2. Adjectives (Adjetivos)</h2>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-warning">
+                  <strong>Se usan para describir un sustantivo.</strong>
+                  <ul class="mb-0 mt-2">
+                    <li><em>a red car</em> (un auto rojo)</li>
+                    <li><em>a tall building</em> (un edificio alto)</li>
+                  </ul>
+                </div>
+
+                <h5>🔹 Orden de adjetivos</h5>
+                <p>
+                  Cuando usamos <strong>varios adjetivos</strong> juntos, hay un
+                  orden típico:
+                </p>
+
+                <div class="table-responsive mb-4">
+                  <table class="table table-striped">
+                    <thead class="table-dark">
+                      <tr>
+                        <th>#</th>
+                        <th>Tipo</th>
+                        <th>Ejemplos</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Opinión</td>
+                        <td><em>beautiful, nice</em></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Tamaño</td>
+                        <td><em>big, small</em></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Edad</td>
+                        <td><em>new, old</em></td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Forma</td>
+                        <td><em>round, square</em></td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Color</td>
+                        <td><em>red, blue</em></td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Origen</td>
+                        <td><em>Spanish, American</em></td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Material</td>
+                        <td><em>wooden, plastic</em></td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>Sustantivo</td>
+                        <td><em>car, table</em></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="practice-section mb-4">
+                  <h5>👉 Ejemplo:</h5>
+                  <p class="mb-0">
+                    <strong
+                      >A beautiful big old round red Spanish wooden
+                      table.</strong
+                    ><br />
+                    <small class="text-muted"
+                      >(Una hermosa mesa española grande, vieja, redonda, de
+                      madera y roja).</small
+                    >
+                  </p>
+                </div>
+
+                <h5>🔹 Adjetivos posesivos</h5>
+                <p>Muestran <strong>pertenencia</strong>.</p>
+
+                <div class="table-responsive mb-4">
+                  <table class="table table-striped">
+                    <thead class="table-dark">
+                      <tr>
+                        <th>Español</th>
+                        <th>Inglés</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Mi</td>
+                        <td>My</td>
+                      </tr>
+                      <tr>
+                        <td>Tu / Su</td>
+                        <td>Your</td>
+                      </tr>
+                      <tr>
+                        <td>Su (de él)</td>
+                        <td>His</td>
+                      </tr>
+                      <tr>
+                        <td>Su (de ella)</td>
+                        <td>Her</td>
+                      </tr>
+                      <tr>
+                        <td>Su (de eso)</td>
+                        <td>Its</td>
+                      </tr>
+                      <tr>
+                        <td>Nuestro</td>
+                        <td>Our</td>
+                      </tr>
+                      <tr>
+                        <td>Vuestro / Sus</td>
+                        <td>Your</td>
+                      </tr>
+                      <tr>
+                        <td>Su (de ellos)</td>
+                        <td>Their</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="practice-section">
+                  <h5>👉 Ejemplo:</h5>
+                  <ul class="mb-0">
+                    <li>This is <strong>my</strong> book.</li>
+                    <li>That is <strong>her</strong> car.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Sección 3: Present Simple -->
+          <section id="present-simple" class="mb-5">
+            <div class="card shadow-sm">
+              <div class="card-header bg-success text-white">
+                <h2 class="card-title mb-0">
+                  3. Presente Simple (Simple Present)
+                </h2>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-success">
+                  <strong
+                    >Se usa para hablar de hábitos, rutinas y hechos
+                    generales.</strong
+                  >
+                </div>
+
+                <h5>🔹 Formación</h5>
+
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card border-success">
+                      <div class="card-header bg-success text-white">
+                        <h6 class="mb-0">✅ Afirmativa</h6>
+                      </div>
+                      <div class="card-body">
+                        <p><strong>Sujeto + verbo + complemento</strong></p>
+                        <ul class="list-unstyled">
+                          <li>• I play football.</li>
+                          <li>• She play<strong>s</strong> football.</li>
+                        </ul>
+                        <small class="text-muted"
+                          >*En tercera persona singular se agrega
+                          <strong>-s</strong> al verbo</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card border-danger">
+                      <div class="card-header bg-danger text-white">
+                        <h6 class="mb-0">❌ Negativa</h6>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          <strong
+                            >Sujeto + don't/doesn't + verbo +
+                            complemento</strong
+                          >
+                        </p>
+                        <ul class="list-unstyled">
+                          <li>• I don't like pizza.</li>
+                          <li>• He doesn't work here.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card border-info">
+                      <div class="card-header bg-info text-white">
+                        <h6 class="mb-0">❓ Pregunta</h6>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          <strong
+                            >Do/Does + sujeto + verbo + complemento?</strong
+                          >
+                        </p>
+                        <ul class="list-unstyled">
+                          <li>• Do you speak English?</li>
+                          <li>• Does she study at home?</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="practice-section">
+                  <h5>👉 Ejemplo de rutina:</h5>
+                  <p class="mb-0">
+                    <em
+                      >I wake up at 7, I go to work at 8, and I have lunch at
+                      12.</em
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Sección 4: Can + infinitive -->
+          <section id="can-modal" class="mb-5">
+            <div class="card shadow-sm">
+              <div class="card-header bg-info text-white">
+                <h2 class="card-title mb-0">4. Can + infinitivo</h2>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-info">
+                  <strong>Se usa para expresar:</strong>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title">💪 1. Habilidad</h6>
+                        <p class="card-text">
+                          <em>I can swim.</em> (Sé nadar).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title">✋ 2. Permiso</h6>
+                        <p class="card-text">
+                          <em>You can use my phone.</em> (Podés usar mi
+                          teléfono).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title">🌦️ 3. Posibilidad</h6>
+                        <p class="card-text">
+                          <em>It can rain tomorrow.</em> (Puede llover mañana).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h6 class="card-title">
+                          🙏 4. Pedir cosas (amablemente)
+                        </h6>
+                        <p class="card-text">
+                          <em>Can you help me?</em> (¿Podés ayudarme?).
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="practice-section">
+                  <h5>
+                    👉 Estructura:
+                    <strong
+                      >Sujeto + can + verbo (en infinitivo) +
+                      complemento</strong
+                    >
+                  </h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <strong>Affirmative:</strong>
+                      <em>She can play the piano.</em>
+                    </li>
+                    <li class="list-group-item">
+                      <strong>Negative:</strong> <em>He can't drive.</em>
+                    </li>
+                    <li class="list-group-item">
+                      <strong>Question:</strong> <em>Can you dance?</em>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Bootstrap 5 JS + Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- js/script.js -->
+        <script src="../js/script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
